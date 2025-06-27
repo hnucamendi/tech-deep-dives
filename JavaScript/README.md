@@ -13,8 +13,9 @@ JavaScript is a lightweight, interpreted, multi-paradigm language, and features 
 
 # Table of Contents
 
-- [Welcome to JavaScript](#welcome-to-javascript)
-- [Table of Contents](#table-of-contents)
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 - [Installation and configuration](#installation-and-configuration)
   - [Brew | Mac](#brew--mac)
   - [VSCode | Mac](#vscode--mac)
@@ -92,6 +93,8 @@ JavaScript is a lightweight, interpreted, multi-paradigm language, and features 
   - [Why is ES6 so special?](#why-is-es6-so-special)
 - [Vocabulary](#vocabulary)
 - [Code Along](#code-along)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Installation and configuration
 
@@ -483,11 +486,11 @@ Most languages have a concept of a function, JavaScript has some functions resem
 Note:
 
 - although the syntax here may look like the one from C++ or Java, under the hood, they function very differently.
-- Note about Functions in JavaScript: Functions can be assigned to variables, this is essential to understanding how to declare the [Arrow Function](#The-Arrow-Function) and the [Classic Non-Hoisted Function](#The-Classic-Non-Hoisted-Function)
+- Note about Functions in JavaScript: Functions can be assigned to variables, this is essential to understanding how to declare the [Arrow Function](#the-arrow-function) and the [Classic Non-Hoisted Function](#the-classic-non-hoisted-function)
 
 ## The Classic Hoisted Function
 
-Check out how to call this type of Function [Here](#Invoking-Classic-Hoisted-Function)
+Check out how to call this type of Function [Here](#invoking-classic-hoisted-function)
 
 ```JavaScript
 function helloWorld(){
@@ -497,7 +500,7 @@ function helloWorld(){
 
 ## The Classic Non-Hoisted Function
 
-Check out how to call this type of Function [Here](#Invoking-Classic-Non-Hoisted-Function)
+Check out how to call this type of Function [Here](#invoking-classic-non-hoisted-function)
 
 ```JavaScript
 const helloWorld = function(){
@@ -507,7 +510,7 @@ const helloWorld = function(){
 
 ## The Arrow Function
 
-Check out how to call this type of Function [Here](#Invoking-Arrow-Function)
+Check out how to call this type of Function [Here](#invoking-arrow-function)
 
 ```JavaScript
 const helloWorld = () => {
@@ -1710,7 +1713,7 @@ console.log(sqr.getAreaSquare(12));
 | Dynamic Programming Language | a dynamic programming language refers to the way variables are handled and defined. Example: `const testVariable = 12` is dynamic because we declare the variable name and the value, and the computer takes care of understanding what kind of variable it is. JavaScript is a dynamic programming language.                                                                                                                                                                                                                                                     |
 | Static Programming Language  | a static programming language refers to the way variables are handled and defined. Example: `const testVariable int = 12` Here we have to define the variable name `testVariable`, the variable type `int`, and the variables value `12`                                                                                                                                                                                                                                                                                                                          |
 | Object Oriented Paradigm     | In this paradigm code should be written in objects with code that mimics how we think of objects in real life. For example: we think of a car as an object with 4 wheels, a color, a model, and more things to define what a car is, and what kind it is. In code, we would have an object just like this to declare the color, model, and other attributes of a car object. OOP also introduces abstraction, learn more about abstraction in the next entry                                                                                                      |
-| Abstraction                  | Abstraction is a common practice in programming where instead of typing the value for something by hand for each possible configuration, we create a variable that changes its value based on the configuration. Example: `const config1 = 1 const config2 = 2 const config3 = 3` vs an example with abstraction `const abstractedVariables = (config) => config ` you can see with abstraction we can accomplish the same functionality with less code.                                                                                                          |
+| Abstraction                  | Abstraction is a common practice in programming where instead of typing the value for something by hand for each possible configuration, we create a variable that changes its value based on the configuration. Example: `const config1 = 1 const config2 = 2 const config3 = 3` vs an example with abstraction `const abstractedVariables = (config) => config` you can see with abstraction we can accomplish the same functionality with less code.                                                                                                           |
 | imperative Programming       | focuses on describing how a program operates step by step, rather than on high-level descriptions of its expected results.                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | declarative Programming      | Declarative programming introduces abstraction similar to OOP, but instead of declaring the objects that the user will use in blocks in declarative programming, we define the desired outcome or the task to execute.                                                                                                                                                                                                                                                                                                                                            |
 | Procedural Programming       | A type of Imperative programming where code is written and read from the top down in the order that it is written. Languages like `Basic` or `C` are procedural                                                                                                                                                                                                                                                                                                                                                                                                   |
